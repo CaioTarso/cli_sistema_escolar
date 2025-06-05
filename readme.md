@@ -1,7 +1,10 @@
 
 # CLI - SISTEMA ESCOLAR
+```
+CLI: significa "Command Line Interface" (Interface de Linha de Comando). É uma interface de interação com um sistema de computador ou software que utiliza comandos de texto digitados pelo usuário, em vez de uma interface gráfica. 
+```
 
-Esse sistema foi feito para disciplina de Modelagem de bano de dados, e tem como base a prática dos fundamentos aprendidos em sala.
+Esse sistema foi feito para disciplina de Modelagem de banco de dados, e tem como base a prática dos fundamentos aprendidos em sala.
 
 # para rodar o sistema siga esse passos abaixo:
 
