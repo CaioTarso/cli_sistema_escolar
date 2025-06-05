@@ -1,4 +1,5 @@
 from sqlalchemy.orm import Session
+from datetime import datetime
 from db import Session, Professor, Aluno, Disciplina, Turma, Nota, Frequencia
 
 def add_professor(args):
@@ -38,15 +39,20 @@ def add_turma(args):
 
 
 def add_nota(args):
-    sessio = Session()
+    session = Session()
     novo = Nota(aluno_id=args.aluno_id, turma_id=args.turma_id, nota=args.nota)
-    sessio.add(novo)
-    sessio.commit()
+    session.add(novo)
+    session.commit()
     print("Nota adicionada com sucesso.")
-    sessio.close()
+    session.close()
 
 
 
-def add_frequencia(aluno_id, turma_id, data, presente):
-    # TODO: implementar inserção no banco
-    print(f"[SIMULAÇÃO] Frequência: Aluno ID: {aluno_id}, Turma ID: {turma_id}, Data: {data}, Presente: {presente}")
+def add_frequencia(args):
+    session = Session()
+    data_obj = datetime.strptime(args.data, "%Y-%m-%d").date()
+    nova_freq = Frequencia(aluno_id=args.aluno_id, turma_id=args.turma_id, data=data_obj, presente=args.presente)
+    session.add(nova_freq)
+    session.commit()
+    print("Frequência registrada com sucesso.")
+    session.close()
