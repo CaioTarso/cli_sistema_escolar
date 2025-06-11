@@ -77,27 +77,27 @@ python3 main.py add-frequencia --aluno-id 1 --turma-id --data "2025-06-04"
 
 1.
 ```bash
-python3 main.py add-professores-batch --arquivo "professores.csv"
+python3 main.py add-professores-batch --arquivo "csvs/professores.csv"
 ```
 2.
 ```bash
-python3 main.py add-alunos-batch --arquivo "alunos.csv"
+python3 main.py add-alunos-batch --arquivo "csvs/alunos.csv"
 ```
 3.
 ```bash
-python3 main.py add-disciplinas-batch --arquivo "disciplinas.csv"
+python3 main.py add-disciplinas-batch --arquivo "csvs/disciplinas.csv"
 ```
 4.
 ```bash
-python3 main.py add-turmas-batch --arquivo "turmas.csv"
+python3 main.py add-turmas-batch --arquivo "csvs/turmas.csv"
 ```
 5.
 ```bash
-python3 main.py add-notas-batch --arquivo "notas.csv"
+python3 main.py add-notas-batch --arquivo "csvs/notas.csv"
 ```
 6.
 ```bash
-python3 main.py add-frequencias-batch --arquivo "frequencias.csv"
+python3 main.py add-frequencias-batch --arquivo "csvs/frequencias.csv"
 ```
 #  Fazendo buscas 
 
