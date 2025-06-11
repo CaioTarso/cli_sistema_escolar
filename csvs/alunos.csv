@@ -1,6 +1,6 @@
-nome,matricula
-Ana Lima,20230123
-João Silva,20230124
-Maria Souza,20230125
-Carlos Mendes,20230126
+nome,matricula,email,data_nascimento,curso,periodo,status
+Ana Lima,20230123,xaolim89@gamil.com,2004-04-14,Engenharia,4,Ativo
+João Silva,20230124,xaolim2@gamil.com,2004-04-14,Engenharia,4,Ativo
+Maria Souza,20230125,xaolim3@gamil.com,2004-04-14,Engenharia,4,Ativo
+Carlos Mendes,20230126,xaolim4@gamil.com,2004-04-14,Engenharia,4,Ativo
 

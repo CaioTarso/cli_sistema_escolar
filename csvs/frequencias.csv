@@ -1,4 +1,4 @@
-aluno_id,turma_id,data,presente
-1,2,"2025-06-10",--presente
-2,1,"2025-06-10"
-3,1,"2025-06-10",--presente
+aluno_id,turma_id,data,presente,justificativa,conteudo_aula
+1,2,"2025-06-18",True,null,blablabla
+2,1,"2025-06-18",False,teve médico,blablabla
+3,1,"2025-06-18",True,null,blablabla

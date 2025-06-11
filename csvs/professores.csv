@@ -1,5 +1,5 @@
-nome,email
-jhon,jhon@teste.com
-alexsandro,alexsandro@teste.com
-ermin,ermin@teste.com
-francisco,francisco@teste.com
+nome,email,titulacao,departamento,data_contratacao,ativo
+jhon,jhon@teste.com,doutor,ti,2024-07-13,True
+alexsandro,alexsandro@teste.com,doutor,ti,2024-07-13,True
+ermin,ermin@teste.com,doutor,ti,2024-07-13,True
+francisco,francisco@teste.com,doutor,ti,2024-07-13,True

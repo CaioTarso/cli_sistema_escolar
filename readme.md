@@ -42,37 +42,36 @@ Exemplos de comandos disponíveis:
 
 1. Adicionar Professor:
 ```bash
-python3 main.py add-professor --nome "Nome Professor" --email "email@exemplo.com"
-```
+ python3 main.py add-professor --nome "teste" --email "email@exemplo.com" --titulacao "Doutor" --departamento "TI" --data_contratacao "2024-08-09" --ativo False```
 
 2. Adicionar Aluno:
 ```bash
-python3 main.py add-aluno --nome "Nome Aluno" --matricula "2023001"
-```
+python3 main.py add-aluno --nome "ruyter" --matricula "2023001" --email "xaolim@gamil.com" --data_nascimento 2004-04-14 --curso "Engenharia" --periodo 4 --status "Ativ
+o"```
 
 3. Adicionar Disciplina
 ```bash
-python3 main.py add-disciplina --nome "Matemática" --professor-id 1
-```
+python3 main.py add-disciplina --nome "Matemática 2" --professor-id 1 --codigo "3" --creditos 40 --carga_horaria 50 --ementa "estudo de funcoes" --pre_requisitos "ter 
+cursado matemática 1" --departamento "exatas"
 
 4. Adicionar Turma
 ```bash
-python3 main.py add-turma --nome "Turma A" --disciplina-id 1
-```
+python3 main.py add-turma --nome "Turma A" --disciplina_id 1 --semestre "2025.1" --horario "SEX 13:00-15:00" --sala "2C" --vagas_totais 40 --vagas_ocupadas 0 --status 
+"Ativa"```
 
 5. Adicionar Nota
 ```bash
-python3 main.py add-nota --aluno-id 1 --turma-id 1 --nota 9.5
-```
+python3 main.py add-nota --aluno_id 1 --turma_id 1 --nota 9.5 --tipo_avaliacao "Prova" --peso 1.0 --data_lancamento 2025-06-11 --observacao "aluno caiu rendimento"```
 
 4. Registrar Frequência:
 ```bash
-python3 main.py add-frequencia --aluno-id 1 --turma-id 1 --data "2025-06-04" --presente 
+python3 main.py add-frequencia --aluno_id 1 --turma_id 1 --data "2025-06-04" --presente True --conteudo_aula "matriz"
 ```
-### atenção: em frequência, se você quiser registrar um aluno com "falta" repita o comando anterior, porém, sem o "--presente"
 ```bash
-python3 main.py add-frequencia --aluno-id 1 --turma-id --data "2025-06-04" 
+python3 main.py add-frequencia --aluno_id 1 --turma_id 1 --data "2025-06-04" --presente False --justificativa "Doente" --conteudo_aula "matriz"
 ```
+
+
 # Adicionado por lotes(CSV)
 
 1.

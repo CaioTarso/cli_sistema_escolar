@@ -1,4 +1,4 @@
-aluno_id,turma_id,nota
-1,1,8.5
-2,1,7.0
-3,1,10.0
+aluno_id,turma_id,nota,tipo_avaliacao,peso,data_lancamento,observacao
+1,1,8.5,trabalho,4,2026-06-11,teste
+2,1,7.0,trabalho,4,2026-06-11,teste
+3,1,10.0,trabalho,4,2026-06-11,teste

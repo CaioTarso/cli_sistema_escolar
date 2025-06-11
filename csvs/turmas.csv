@@ -1,4 +1,4 @@
-nome,disciplina_id
-"BD-2023-1",1
-"Python-2023-1",1
-"ED-2023-1",1
+nome,disciplina_id,semestre,horario,sala,vagas_totais,vagas_ocupadas,status
+"BD-2023-1",1,2025.1,SEG 13:00-14:00,2F,40,0,Ativa
+"Python-2023-1",1,2025.1,SEG 14:00-15:00,2F,40,0,Ativa
+"ED-2023-1",1,2025.1,SEG 15:00-16:00,2F,40,0,Ativa

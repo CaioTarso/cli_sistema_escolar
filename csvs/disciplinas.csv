@@ -1,4 +1,4 @@
-nome,professor_id
-"Banco de Dados",1
-"Programação Python",2
-"Estrutura de Dados",1
+nome,codigo,creditos,carga_horaria,ementa,pre_requesitos,professor_id,departamento
+"Banco de Dados",8,30,40,teste,teset,1,TI
+"Programação Python",12,30,40,teste,teset,1,TI
+"Estrutura de Dados",9,30,40,teste,teset,1,TI
