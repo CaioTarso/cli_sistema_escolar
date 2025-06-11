@@ -102,6 +102,18 @@ def main():
     
     elif args.comando == "add-alunos-batch":
         add_alunos_batch(args.arquivo)
+
+    elif args.comando == "add-notas-batch":
+        add_notas_batch(args.arquivo)
+
+    elif args.comando == "add-disciplinas-batch":
+        add_disciplinas_batch(args.arquivo)
+
+    elif args.comando == "add-turmas-batch":
+        add_turmas_batch(args.arquivo)
+    
+    elif args.comando == "add-frequencias-batch":
+        add_frequencias_batch(args.arquivo)
     
     elif args.comando == "listar-alunos":
         listar_alunos()

@@ -35,3 +35,4 @@ def frequencia_aluno(aluno_id, turma_id):
     freq = session.query(Frequencia).filter_by(aluno_id=aluno_id, turma_id=turma_id).all()
     for f in freq:
         print(f"{f.data} - {'Presente' if f.presente else 'Ausente'}")
+
